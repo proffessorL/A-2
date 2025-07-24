@@ -1,0 +1,131 @@
+.main-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.main-banar-text h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+.abc{
+    font-weight: 200;
+    padding-top: 50px;
+  
+} 
+.abc li{
+    gap: 130px;
+    text-align: left;
+}
+.main-banar-text{
+    max-width: 540px;
+    margin-left: 25px;
+}
+
+.main-section-img{
+    width: 100%;
+    position: relative;
+    max-width: 540px;
+}
+
+
+.main-section-img {
+  position: relative;
+  display: inline-block; 
+}
+.bangladesh{
+  width: 100%;
+  display: block;
+  height: auto
+}
+.dhaka{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 20;
+    width: 300px;
+    transform: translate(25%,-28%);
+}
+.main-banar{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-top: 150px;
+    height: 600px;
+    max-width: 1140px;
+} 
+
+
+.main-paragraph{
+     max-width: 700px;
+  margin: 100px auto 50px auto;
+  box-sizing: border-box;
+  padding: 0 20px;
+  height: auto;
+  position: relative; 
+} 
+.main-para-head{
+   text-align: center;
+  font-size: 48px;
+}
+
+
+.main-para-text{
+  font-weight: lighter;
+  max-width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 1.6;
+  word-break: normal;
+  white-space: normal;
+   
+    
+}
+
+@media screen and (max-width:576px) {
+
+     .main-banar{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+     margin-bottom: 180px;
+   }
+   .dhaka{
+    display: none;
+   }
+   .bangladesh{
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+   }
+   .main-banar-text{
+    margin: 20px auto;
+    text-align: center;
+   } 
+
+   .main-para-head{
+       font-size: 32px;
+    padding: 10px 0;
+    margin-top: 20px;
+   }
+   .main-para-text{
+    font-size: 14px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+    word-break: normal;
+    white-space: normal;
+   }
+   .main-paragraph{
+     margin: 60px auto 30px auto;
+    padding: 0 15px;
+   }
+
+ 
+    
+}
