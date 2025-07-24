@@ -33,7 +33,7 @@
     font-weight: lighter;
 } 
 
-@media(max-width:450px){
+@media(max-width:576px){
     .nav-res{
         display: none;
     }
