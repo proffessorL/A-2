@@ -1,0 +1,49 @@
+.icons{
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  max-width: 1440px;
+  
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  max-width: 1120px;
+  gap: 6.87rem;
+  margin: 50px auto;
+}
+
+.home ul li a, .feature ul li a{
+  color: rgb(107, 114, 128);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+text-decoration: none;
+}
+
+.home ul li , .feature ul li{
+  list-style: none;
+  margin-bottom: 32px;
+}
+
+.content p {
+    color: rgb(107, 114, 128);
+}
+
+@media screen and (max-width:576px) {
+    .footer{
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5px;
+  text-align: left;
+}
+.feature{
+    margin-top: -20px;
+}
+    
+}

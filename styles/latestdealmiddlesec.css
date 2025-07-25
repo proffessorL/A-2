@@ -1,0 +1,145 @@
+.img-1{
+  width: 366.22px;
+  height: 206px;
+  background: linear-gradient(rgba(0, 0 ,0 , 0.4) 100%), url("../assets/deal-bloom.png");
+  background-size: cover;
+  text-align: center;
+  border-radius: 10px;
+  align-items: center;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+
+.img-2{
+  width: 366.22px;
+  height: 206px;
+  background: linear-gradient(rgba(0, 0 ,0 , 0.4) 100%), url("../assets/deal-ana.png");
+  background-size: cover;
+  text-align: center;
+  border-radius: 10px;
+  display: grid;
+  align-items: center;
+}
+.img-3{
+   width: 753px;
+  height: 423.13px;
+  background: linear-gradient(rgba(0, 0 ,0 , 0.4) 100%), url("../assets/deal-zabo.png");
+  background-size: cover;
+  text-align: center;
+  border-radius: 10px;
+  display: grid;
+  align-items: center;
+}
+
+
+.img-1 h3,.img-2 h3, .img-3 h3{
+  color: rgb(255, 255, 255);
+font-family: Noto Serif;
+font-size: 24px;
+font-weight: 700;
+margin: 0;
+}
+.img-1 a, .img-2 a , .img-3 a{
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+}
+.img-3 h3 {
+  font-size: 2.50rem;
+}
+.img-3 a{
+  font-size: 1.50rem;
+}
+.leatest-deals{
+  max-width: 1140px;
+  display: flex;
+  gap: 30px;
+  margin: 50px auto;
+}
+
+
+.bunch h3{
+  color: rgb(255, 255, 255);
+font-family: Noto Serif;
+font-size: 3.25rem;
+font-weight: 700;
+}
+
+
+.bunch{
+  text-align: center;
+  max-width: 100%;
+  height: 533px;
+  background-image: url("../assets/news-letter-bg.png") ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-input{
+  width: 400px;
+  height: 25px;
+}
+
+
+@media screen and (max-width:576px) {
+
+
+    .leatest-deals{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-content{
+    order: 2;
+    text-align: left;
+  }
+  .img-3{
+     width: 366.22px;
+  height: 206px;
+  }
+  .img-3 h3{
+     color: rgb(255, 255, 255);
+font-family: Noto Serif;
+font-size: 24px;
+font-weight: 700;
+margin: 0;
+  }
+
+.img-3 a{
+   color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+}
+
+  .input input{
+  width: 250px;
+}
+.input button {
+  width: 100px
+}
+
+.bunch{
+  width: 100%;
+  height: 200px;
+}
+
+.bunch h3{
+  font-size: 1.2rem;
+}
+
+.email-input{
+  width: 300px;
+  height: 15px;
+}
+
+    
+}
